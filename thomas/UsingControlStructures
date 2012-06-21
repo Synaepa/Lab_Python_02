@@ -1,0 +1,49 @@
+#Q5
+theInput = raw_input ("Enter an integer:")
+print theInput
+z=int(theInput)
+
+if z%2==0:
+    print "the number is Even"
+else:
+    print "the number is odd"
+print '------'
+#Q6
+primarySchoolAge = 4
+legalVotingAge = 18
+presidentialAge = 40
+retirementAge = 60
+personsAge = input(" Enter an age: ")
+
+if personsAge<4:
+    print 'Too young'
+elif personsAge>=60:
+    print 'Too old'
+elif personsAge>=40:
+    print 'Vote for me'
+elif personsAge>=18:
+    print 'Remember to vote'
+else:
+    print "You can't be a President"
+
+print '-----'
+
+#Q7
+for i in range(40,-1,-1):
+    if i%3==0:
+        print i
+
+print '-----'
+
+#Q8
+for i in range(6,30,1):
+    if i%5!=0:      #  Finding numbers between 6 and 30 that are not divisible by 5
+        print i
+
+print '-----'
+
+#Q9
+for n in range (0,100,1):
+while(79*n)%97==1:
+point n
+n=n+1
